@@ -1,29 +1,30 @@
 {
-  "name": "robofriends",
+  "name": "typetype",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.3",
-    "tachyons": "^4.12.0"
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts-ts": "^4.0.8",
+    "tachyons": "^4.9.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
   },
-  "browserslist": {
-    "production": [ 
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "@types/node": "^9.6.59",
+    "@types/react": "^16.9.50",
+    "@types/react-dom": "^16.9.8",
+    "typescript": "^2.9.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
